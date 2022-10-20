@@ -2,8 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, Text, View, FlatList, Button } from "react-native";
 
-import GoalInput from "../components/GoalInput";
-import GoalItem from "../components/GoalItem";
+import GoalInput from "../../components/GoalInput";
+import GoalItem from "../../components/GoalItem";
 
 const Main = () => {
   const [courseGoals, setCourseGoals] = useState([]);
